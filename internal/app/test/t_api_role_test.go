@@ -4,8 +4,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/Levin/go-admin/internal/app/schema"
-	"github.com/Levin/go-admin/pkg/util"
+	"github.com/levin9/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/pkg/util"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Levin/go-admin/pkg/auth/jwtauth/store/buntdb"
+	"github.com/levin9/go-admin/pkg/auth/jwtauth/store/buntdb"
 	"github.com/stretchr/testify/assert"
 )
 

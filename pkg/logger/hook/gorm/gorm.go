@@ -3,8 +3,8 @@ package gorm
 import (
 	"time"
 
-	"github.com/Levin/go-admin/pkg/logger"
-	"github.com/Levin/go-admin/pkg/util"
+	"github.com/levin9/go-admin/pkg/logger"
+	"github.com/levin9/go-admin/pkg/util"
 	"github.com/jinzhu/gorm"
 	"github.com/sirupsen/logrus"
 )

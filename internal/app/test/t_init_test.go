@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/Levin/go-admin/internal/app"
-	"github.com/Levin/go-admin/internal/app/config"
+	"github.com/levin9/go-admin/internal/app"
+	"github.com/levin9/go-admin/internal/app/config"
 	"github.com/gin-gonic/gin"
 )
 

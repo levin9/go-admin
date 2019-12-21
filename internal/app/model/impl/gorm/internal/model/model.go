@@ -3,8 +3,8 @@ package model
 import (
 	"context"
 
-	icontext "github.com/Levin/go-admin/internal/app/context"
-	"github.com/Levin/go-admin/internal/app/schema"
+	icontext "github.com/levin9/go-admin/internal/app/context"
+	"github.com/levin9/go-admin/internal/app/schema"
 	"github.com/jinzhu/gorm"
 )
 

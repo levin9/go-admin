@@ -1,9 +1,9 @@
 package ctl
 
 import (
-	"github.com/Levin/go-admin/internal/app/bll"
-	"github.com/Levin/go-admin/internal/app/ginplus"
-	"github.com/Levin/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/internal/app/bll"
+	"github.com/levin9/go-admin/internal/app/ginplus"
+	"github.com/levin9/go-admin/internal/app/schema"
 	"github.com/gin-gonic/gin"
 )
 

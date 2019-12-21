@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"runtime"
 
-	"github.com/Levin/go-admin/internal/app/errors"
-	"github.com/Levin/go-admin/internal/app/ginplus"
-	"github.com/Levin/go-admin/pkg/logger"
+	"github.com/levin9/go-admin/internal/app/errors"
+	"github.com/levin9/go-admin/internal/app/ginplus"
+	"github.com/levin9/go-admin/pkg/logger"
 	"github.com/gin-gonic/gin"
 )
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Levin/go-admin/internal/app/errors"
-	"github.com/Levin/go-admin/internal/app/ginplus"
+	"github.com/levin9/go-admin/internal/app/errors"
+	"github.com/levin9/go-admin/internal/app/ginplus"
 	"github.com/gin-gonic/gin"
 )
 

@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"github.com/Levin/go-admin/internal/app/config"
-	"github.com/Levin/go-admin/internal/app/errors"
-	"github.com/Levin/go-admin/internal/app/ginplus"
-	"github.com/Levin/go-admin/pkg/auth"
+	"github.com/levin9/go-admin/internal/app/config"
+	"github.com/levin9/go-admin/internal/app/errors"
+	"github.com/levin9/go-admin/internal/app/ginplus"
+	"github.com/levin9/go-admin/pkg/auth"
 	"github.com/gin-gonic/gin"
 )
 

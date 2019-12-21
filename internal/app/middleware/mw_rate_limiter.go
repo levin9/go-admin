@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Levin/go-admin/internal/app/config"
-	"github.com/Levin/go-admin/internal/app/errors"
-	"github.com/Levin/go-admin/internal/app/ginplus"
+	"github.com/levin9/go-admin/internal/app/config"
+	"github.com/levin9/go-admin/internal/app/errors"
+	"github.com/levin9/go-admin/internal/app/ginplus"
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis"
 	"github.com/go-redis/redis_rate"

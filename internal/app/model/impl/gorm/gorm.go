@@ -3,10 +3,10 @@ package gorm
 import (
 	"time"
 
-	"github.com/Levin/go-admin/internal/app/config"
-	"github.com/Levin/go-admin/internal/app/model"
-	"github.com/Levin/go-admin/internal/app/model/impl/gorm/internal/entity"
-	imodel "github.com/Levin/go-admin/internal/app/model/impl/gorm/internal/model"
+	"github.com/levin9/go-admin/internal/app/config"
+	"github.com/levin9/go-admin/internal/app/model"
+	"github.com/levin9/go-admin/internal/app/model/impl/gorm/internal/entity"
+	imodel "github.com/levin9/go-admin/internal/app/model/impl/gorm/internal/model"
 	"github.com/jinzhu/gorm"
 	"go.uber.org/dig"
 

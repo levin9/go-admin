@@ -3,7 +3,7 @@ package model
 import (
 	"context"
 
-	"github.com/Levin/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/internal/app/schema"
 )
 
 // IMenu 菜单管理存储接口

@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/Levin/go-admin/internal/app/config"
+	"github.com/levin9/go-admin/internal/app/config"
 	"github.com/google/gops/agent"
 )
 

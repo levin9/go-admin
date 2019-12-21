@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/Levin/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/internal/app/schema"
 	"github.com/jinzhu/gorm"
 )
 

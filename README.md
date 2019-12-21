@@ -70,7 +70,7 @@ $ gin-admin-cli g -d ~/go/src/gin-admin -p gin-admin -n Task -c '任务管理'
 ### 获取代码
 
 ```bash
-$ go get -v github.com/Levin/go-admin/cmd/server
+$ go get -v github.com/levin9/go-admin/cmd/server
 ```
 
 ### 运行

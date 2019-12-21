@@ -1,11 +1,11 @@
 package app
 
 import (
-	"github.com/Levin/go-admin/internal/app/config"
-	"github.com/Levin/go-admin/pkg/auth"
-	"github.com/Levin/go-admin/pkg/auth/jwtauth"
-	"github.com/Levin/go-admin/pkg/auth/jwtauth/store/buntdb"
-	"github.com/Levin/go-admin/pkg/auth/jwtauth/store/redis"
+	"github.com/levin9/go-admin/internal/app/config"
+	"github.com/levin9/go-admin/pkg/auth"
+	"github.com/levin9/go-admin/pkg/auth/jwtauth"
+	"github.com/levin9/go-admin/pkg/auth/jwtauth/store/buntdb"
+	"github.com/levin9/go-admin/pkg/auth/jwtauth/store/redis"
 	jwt "github.com/dgrijalva/jwt-go"
 )
 

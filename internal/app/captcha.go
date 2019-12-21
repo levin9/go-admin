@@ -3,8 +3,8 @@ package app
 import (
 	"github.com/LyricTian/captcha"
 	"github.com/LyricTian/captcha/store"
-	"github.com/Levin/go-admin/internal/app/config"
-	"github.com/Levin/go-admin/pkg/logger"
+	"github.com/levin9/go-admin/internal/app/config"
+	"github.com/levin9/go-admin/pkg/logger"
 	"github.com/go-redis/redis"
 )
 

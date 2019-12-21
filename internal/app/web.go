@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Levin/go-admin/internal/app/config"
-	"github.com/Levin/go-admin/internal/app/middleware"
-	"github.com/Levin/go-admin/internal/app/routers/api"
-	"github.com/Levin/go-admin/pkg/logger"
+	"github.com/levin9/go-admin/internal/app/config"
+	"github.com/levin9/go-admin/internal/app/middleware"
+	"github.com/levin9/go-admin/internal/app/routers/api"
+	"github.com/levin9/go-admin/pkg/logger"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/dig"
 )

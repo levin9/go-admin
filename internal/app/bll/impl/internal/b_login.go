@@ -5,11 +5,11 @@ import (
 	"net/http"
 
 	"github.com/LyricTian/captcha"
-	"github.com/Levin/go-admin/internal/app/errors"
-	"github.com/Levin/go-admin/internal/app/model"
-	"github.com/Levin/go-admin/internal/app/schema"
-	"github.com/Levin/go-admin/pkg/auth"
-	"github.com/Levin/go-admin/pkg/util"
+	"github.com/levin9/go-admin/internal/app/errors"
+	"github.com/levin9/go-admin/internal/app/model"
+	"github.com/levin9/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/pkg/auth"
+	"github.com/levin9/go-admin/pkg/util"
 )
 
 // NewLogin 创建登录管理实例

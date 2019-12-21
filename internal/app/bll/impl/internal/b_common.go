@@ -3,11 +3,11 @@ package internal
 import (
 	"context"
 
-	"github.com/Levin/go-admin/internal/app/config"
-	icontext "github.com/Levin/go-admin/internal/app/context"
-	"github.com/Levin/go-admin/internal/app/model"
-	"github.com/Levin/go-admin/internal/app/schema"
-	"github.com/Levin/go-admin/pkg/util"
+	"github.com/levin9/go-admin/internal/app/config"
+	icontext "github.com/levin9/go-admin/internal/app/context"
+	"github.com/levin9/go-admin/internal/app/model"
+	"github.com/levin9/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/pkg/util"
 )
 
 // GetRootUser 获取root用户

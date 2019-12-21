@@ -1,9 +1,9 @@
 package api
 
 import (
-	"github.com/Levin/go-admin/internal/app/middleware"
-	"github.com/Levin/go-admin/internal/app/routers/api/ctl"
-	"github.com/Levin/go-admin/pkg/auth"
+	"github.com/levin9/go-admin/internal/app/middleware"
+	"github.com/levin9/go-admin/internal/app/routers/api/ctl"
+	"github.com/levin9/go-admin/pkg/auth"
 	"github.com/casbin/casbin/v2"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/dig"

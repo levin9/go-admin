@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Levin/go-admin/internal/app/config"
-	"github.com/Levin/go-admin/pkg/logger"
-	loggerhook "github.com/Levin/go-admin/pkg/logger/hook"
-	loggergormhook "github.com/Levin/go-admin/pkg/logger/hook/gorm"
+	"github.com/levin9/go-admin/internal/app/config"
+	"github.com/levin9/go-admin/pkg/logger"
+	loggerhook "github.com/levin9/go-admin/pkg/logger/hook"
+	loggergormhook "github.com/levin9/go-admin/pkg/logger/hook/gorm"
 )
 
 // InitLogger 初始化日志

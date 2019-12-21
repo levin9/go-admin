@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Levin/go-admin/internal/app"
-	"github.com/Levin/go-admin/pkg/logger"
-	"github.com/Levin/go-admin/pkg/util"
+	"github.com/levin9/go-admin/internal/app"
+	"github.com/levin9/go-admin/pkg/logger"
+	"github.com/levin9/go-admin/pkg/util"
 )
 
 // VERSION 版本号，

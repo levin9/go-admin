@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"github.com/Levin/go-admin/internal/app/ginplus"
-	"github.com/Levin/go-admin/pkg/util"
+	"github.com/levin9/go-admin/internal/app/ginplus"
+	"github.com/levin9/go-admin/pkg/util"
 	"github.com/gin-gonic/gin"
 )
 

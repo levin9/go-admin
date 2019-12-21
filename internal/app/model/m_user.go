@@ -3,7 +3,7 @@ package model
 import (
 	"context"
 
-	"github.com/Levin/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/internal/app/schema"
 )
 
 // IUser 用户对象存储接口

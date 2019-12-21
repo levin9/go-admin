@@ -3,7 +3,7 @@ package internal
 import (
 	"context"
 
-	"github.com/Levin/go-admin/internal/app/model"
+	"github.com/levin9/go-admin/internal/app/model"
 )
 
 // NewTrans 创建角色管理实例

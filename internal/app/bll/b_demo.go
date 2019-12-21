@@ -3,7 +3,7 @@ package bll
 import (
 	"context"
 
-	"github.com/Levin/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/internal/app/schema"
 )
 
 // IDemo demo业务逻辑接口

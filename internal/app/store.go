@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Levin/go-admin/internal/app/config"
-	igorm "github.com/Levin/go-admin/internal/app/model/impl/gorm"
+	"github.com/levin9/go-admin/internal/app/config"
+	igorm "github.com/levin9/go-admin/internal/app/model/impl/gorm"
 	"github.com/jinzhu/gorm"
 	"go.uber.org/dig"
 )
