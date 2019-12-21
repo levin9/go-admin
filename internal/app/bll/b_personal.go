@@ -3,7 +3,7 @@ package bll
 import (
 	"context"
 
-	"github.com/Levin9/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/internal/app/schema"
 )
 
 // IPersonal 人员管理业务逻辑接口

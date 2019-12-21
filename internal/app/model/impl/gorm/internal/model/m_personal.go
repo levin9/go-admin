@@ -3,10 +3,10 @@ package model
 import (
 	"context"
 
-	"github.com/Levin9/go-admin/internal/app/errors"
-	"github.com/Levin9/go-admin/internal/app/model/impl/gorm/internal/entity"
-	"github.com/Levin9/go-admin/internal/app/schema"
-	"github.com/Levin9/go-admin/pkg/gormplus"
+	"github.com/levin9/go-admin/internal/app/errors"
+	"github.com/levin9/go-admin/internal/app/model/impl/gorm/internal/entity"
+	"github.com/levin9/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/pkg/gormplus"
 )
 
 // NewPersonal 创建人员管理存储实例

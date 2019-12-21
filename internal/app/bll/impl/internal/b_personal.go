@@ -3,10 +3,10 @@ package internal
 import (
 	"context"
 
-	"github.com/Levin9/go-admin/internal/app/errors"
-	"github.com/Levin9/go-admin/internal/app/model"
-	"github.com/Levin9/go-admin/internal/app/schema"
-	"github.com/Levin9/go-admin/pkg/util"
+	"github.com/levin9/go-admin/internal/app/errors"
+	"github.com/levin9/go-admin/internal/app/model"
+	"github.com/levin9/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/pkg/util"
 )
 
 // NewPersonal 创建人员管理

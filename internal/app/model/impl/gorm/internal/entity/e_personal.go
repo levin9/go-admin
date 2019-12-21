@@ -1,8 +1,8 @@
 package entity
 
 import (
-	"github.com/Levin9/go-admin/internal/app/schema"
-	"github.com/Levin9/go-admin/pkg/gormplus"
+	"github.com/levin9/go-admin/internal/app/schema"
+	"github.com/levin9/go-admin/pkg/gormplus"
 	"context"
 )
 

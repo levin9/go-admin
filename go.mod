@@ -1,4 +1,4 @@
-module github.com/Levin/go-admin
+module github.com/levin9/go-admin
 
 go 1.13
 
