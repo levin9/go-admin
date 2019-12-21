@@ -2,12 +2,12 @@ package ctl
 
 import (
 	"github.com/LyricTian/captcha"
-	"github.com/LyricTian/gin-admin/internal/app/bll"
-	"github.com/LyricTian/gin-admin/internal/app/config"
-	"github.com/LyricTian/gin-admin/internal/app/errors"
-	"github.com/LyricTian/gin-admin/internal/app/ginplus"
-	"github.com/LyricTian/gin-admin/internal/app/schema"
-	"github.com/LyricTian/gin-admin/pkg/logger"
+	"github.com/Levin/go-admin/internal/app/bll"
+	"github.com/Levin/go-admin/internal/app/config"
+	"github.com/Levin/go-admin/internal/app/errors"
+	"github.com/Levin/go-admin/internal/app/ginplus"
+	"github.com/Levin/go-admin/internal/app/schema"
+	"github.com/Levin/go-admin/pkg/logger"
 	"github.com/gin-gonic/gin"
 )
 

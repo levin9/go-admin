@@ -3,11 +3,11 @@ package internal
 import (
 	"context"
 
-	"github.com/LyricTian/gin-admin/internal/app/config"
-	icontext "github.com/LyricTian/gin-admin/internal/app/context"
-	"github.com/LyricTian/gin-admin/internal/app/model"
-	"github.com/LyricTian/gin-admin/internal/app/schema"
-	"github.com/LyricTian/gin-admin/pkg/util"
+	"github.com/Levin/go-admin/internal/app/config"
+	icontext "github.com/Levin/go-admin/internal/app/context"
+	"github.com/Levin/go-admin/internal/app/model"
+	"github.com/Levin/go-admin/internal/app/schema"
+	"github.com/Levin/go-admin/pkg/util"
 )
 
 // GetRootUser 获取root用户

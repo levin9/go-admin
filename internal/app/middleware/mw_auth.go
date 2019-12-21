@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"github.com/LyricTian/gin-admin/internal/app/config"
-	"github.com/LyricTian/gin-admin/internal/app/errors"
-	"github.com/LyricTian/gin-admin/internal/app/ginplus"
-	"github.com/LyricTian/gin-admin/pkg/auth"
+	"github.com/Levin/go-admin/internal/app/config"
+	"github.com/Levin/go-admin/internal/app/errors"
+	"github.com/Levin/go-admin/internal/app/ginplus"
+	"github.com/Levin/go-admin/pkg/auth"
 	"github.com/gin-gonic/gin"
 )
 

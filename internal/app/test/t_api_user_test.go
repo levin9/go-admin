@@ -4,8 +4,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/LyricTian/gin-admin/internal/app/schema"
-	"github.com/LyricTian/gin-admin/pkg/util"
+	"github.com/Levin/go-admin/internal/app/schema"
+	"github.com/Levin/go-admin/pkg/util"
 	"github.com/stretchr/testify/assert"
 )
 

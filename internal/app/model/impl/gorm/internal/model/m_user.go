@@ -3,9 +3,9 @@ package model
 import (
 	"context"
 
-	"github.com/LyricTian/gin-admin/internal/app/errors"
-	"github.com/LyricTian/gin-admin/internal/app/model/impl/gorm/internal/entity"
-	"github.com/LyricTian/gin-admin/internal/app/schema"
+	"github.com/Levin/go-admin/internal/app/errors"
+	"github.com/Levin/go-admin/internal/app/model/impl/gorm/internal/entity"
+	"github.com/Levin/go-admin/internal/app/schema"
 	"github.com/jinzhu/gorm"
 )
 

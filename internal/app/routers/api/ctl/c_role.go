@@ -1,9 +1,9 @@
 package ctl
 
 import (
-	"github.com/LyricTian/gin-admin/internal/app/bll"
-	"github.com/LyricTian/gin-admin/internal/app/ginplus"
-	"github.com/LyricTian/gin-admin/internal/app/schema"
+	"github.com/Levin/go-admin/internal/app/bll"
+	"github.com/Levin/go-admin/internal/app/ginplus"
+	"github.com/Levin/go-admin/internal/app/schema"
 	"github.com/gin-gonic/gin"
 )
 

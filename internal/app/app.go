@@ -4,10 +4,10 @@ import (
 	"context"
 	"os"
 
-	"github.com/LyricTian/gin-admin/internal/app/bll/impl"
-	"github.com/LyricTian/gin-admin/internal/app/config"
-	"github.com/LyricTian/gin-admin/pkg/auth"
-	"github.com/LyricTian/gin-admin/pkg/logger"
+	"github.com/Levin/go-admin/internal/app/bll/impl"
+	"github.com/Levin/go-admin/internal/app/config"
+	"github.com/Levin/go-admin/pkg/auth"
+	"github.com/Levin/go-admin/pkg/logger"
 	"go.uber.org/dig"
 )
 

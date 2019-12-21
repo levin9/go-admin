@@ -27,12 +27,12 @@
 
 ## 快速开始
 
-> 使用[gin-admin-cli](https://github.com/LyricTian/gin-admin-cli)工具
+> 使用[gin-admin-cli](https://github.com/Levin/go-admin-cli)工具
 
 ### 快速创建项目
 
 ```bash
-$ go get -v github.com/LyricTian/gin-admin-cli
+$ go get -v github.com/Levin/go-admin-cli
 $ gin-admin-cli new -m -d ~/go/src/gin-admin -p gin-admin
 ```
 
@@ -59,7 +59,7 @@ $ go run cmd/server/main.go -c ./configs/config.toml -m ./configs/model.conf -sw
 
 1. 执行出现错误：`exec: "gcc": executable file not found in %PATH%`，需要安装 gcc，下载地址：[http://tdm-gcc.tdragon.net/download](http://tdm-gcc.tdragon.net/download)
 
-### 解放劳动力 - 快速生成功能模块(`以Task为例`，具体可参考：[gin-admin-cli](https://github.com/LyricTian/gin-admin-cli))
+### 解放劳动力 - 快速生成功能模块(`以Task为例`，具体可参考：[gin-admin-cli](https://github.com/Levin/go-admin-cli))
 
 ```bash
 $ gin-admin-cli g -d ~/go/src/gin-admin -p gin-admin -n Task -c '任务管理'
@@ -70,7 +70,7 @@ $ gin-admin-cli g -d ~/go/src/gin-admin -p gin-admin -n Task -c '任务管理'
 ### 获取代码
 
 ```bash
-$ go get -v github.com/LyricTian/gin-admin/cmd/server
+$ go get -v github.com/Levin/go-admin/cmd/server
 ```
 
 ### 运行
@@ -80,7 +80,7 @@ $ go get -v github.com/LyricTian/gin-admin/cmd/server
 > 也可以使用脚本运行(详情可查看`Makefile`)：`make start`
 
 ```bash
-$ cd github.com/LyricTian/gin-admin
+$ cd github.com/Levin/go-admin
 $ go run cmd/server/main.go -c ./configs/config.toml -m ./configs/model.conf -swagger ./docs/swagger -menu ./configs/menu.json
 ```
 
@@ -93,7 +93,7 @@ $ go run cmd/server/main.go -c ./configs/config.toml -m ./configs/model.conf -sw
 
 ## 前端实现
 
-- [gin-admin-react](https://github.com/LyricTian/gin-admin-react)：基于[Ant Design React](https://ant.design)的实现版本
+- [gin-admin-react](https://github.com/Levin/go-admin-react)：基于[Ant Design React](https://ant.design)的实现版本
 
 ## Swagger 文档的使用
 
@@ -165,9 +165,9 @@ $ swag init -g ./internal/app/routers/swagger.go -o ./docs/swagger
 
     Copyright (c) 2019 Lyric
 
-[reportcard-url]: https://goreportcard.com/report/github.com/LyricTian/gin-admin
-[reportcard-image]: https://goreportcard.com/badge/github.com/LyricTian/gin-admin
-[godoc-url]: https://godoc.org/github.com/LyricTian/gin-admin
-[godoc-image]: https://godoc.org/github.com/LyricTian/gin-admin?status.svg
+[reportcard-url]: https://goreportcard.com/report/github.com/Levin/go-admin
+[reportcard-image]: https://goreportcard.com/badge/github.com/Levin/go-admin
+[godoc-url]: https://godoc.org/github.com/Levin/go-admin
+[godoc-image]: https://godoc.org/github.com/Levin/go-admin?status.svg
 [license-url]: http://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/express.svg

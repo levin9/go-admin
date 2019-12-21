@@ -1,4 +1,4 @@
-module github.com/LyricTian/gin-admin
+module github.com/Levin/go-admin
 
 go 1.13
 

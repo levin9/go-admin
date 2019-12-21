@@ -3,7 +3,7 @@ package model
 import (
 	"context"
 
-	"github.com/LyricTian/gin-admin/internal/app/errors"
+	"github.com/Levin/go-admin/internal/app/errors"
 	"github.com/jinzhu/gorm"
 )
 

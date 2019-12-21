@@ -1,8 +1,8 @@
 package impl
 
 import (
-	"github.com/LyricTian/gin-admin/internal/app/bll"
-	"github.com/LyricTian/gin-admin/internal/app/bll/impl/internal"
+	"github.com/Levin/go-admin/internal/app/bll"
+	"github.com/Levin/go-admin/internal/app/bll/impl/internal"
 	"go.uber.org/dig"
 )
 

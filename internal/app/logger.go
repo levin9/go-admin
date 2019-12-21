@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/LyricTian/gin-admin/internal/app/config"
-	"github.com/LyricTian/gin-admin/pkg/logger"
-	loggerhook "github.com/LyricTian/gin-admin/pkg/logger/hook"
-	loggergormhook "github.com/LyricTian/gin-admin/pkg/logger/hook/gorm"
+	"github.com/Levin/go-admin/internal/app/config"
+	"github.com/Levin/go-admin/pkg/logger"
+	loggerhook "github.com/Levin/go-admin/pkg/logger/hook"
+	loggergormhook "github.com/Levin/go-admin/pkg/logger/hook/gorm"
 )
 
 // InitLogger 初始化日志
