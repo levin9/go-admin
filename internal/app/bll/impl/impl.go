@@ -25,5 +25,6 @@ func Inject(container *dig.Container) error {
 	_ = container.Provide(func(b *internal.Role) bll.IRole { return b })
 	_ = container.Provide(internal.NewUser)
 	_ = container.Provide(func(b *internal.User) bll.IUser { return b })
+	container.Provide(internal.NewPersonal, dig.As(new(bll.IPersonal)))
 	return nil
 }

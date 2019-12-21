@@ -1,0 +1,190 @@
+{
+  "struct_name": "Personal",
+  "comment": "人员管理",
+  "fields": [
+    {
+      "struct_field_name": "PersonId",
+      "comment": "人员编号",
+      "struct_field_required": true,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;index;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "TenantId",
+      "comment": "租户编号",
+      "struct_field_required": true,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;index;",
+      "binding_options": ""
+    },
+   {
+      "struct_field_name": "UserId",
+      "comment": "用户编号",
+      "struct_field_required": true,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;index;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "RealName",
+      "comment": "姓名",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "Mobile",
+      "comment": "手机号",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "JobNo",
+      "comment": "工号",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "DeptName",
+      "comment": "部门",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "JonName",
+      "comment": "职务",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "JobLevel",
+      "comment": "职级",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "JoinDate",
+      "comment": "入职时间",
+      "struct_field_required": false,
+      "struct_field_type": "datetime",
+      "gorm_options": "size:10;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "LastDate",
+      "comment": "离职时间",
+      "struct_field_required": false,
+      "struct_field_type": "datetime",
+      "gorm_options": "size:10;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "RegularDate",
+      "comment": "转正时间",
+      "struct_field_required": false,
+      "struct_field_type": "datetime",
+      "gorm_options": "size:10;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "DingTalkId",
+      "comment": "钉钉ID",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "F_EnabledMark",
+      "comment": "启用标记",
+      "struct_field_required": true,
+      "struct_field_type": "int",
+      "gorm_options": "",
+      "binding_options": "max=2,min=1"
+    },
+    {
+      "struct_field_name": "F_CreateUserId",
+      "comment": "创建用户",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "F_CreateUserName",
+      "comment": "创建用户",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "F_ModifyUserId",
+      "comment": "职级",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "F_ModifyUserName",
+      "comment": "职级",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "F_ModifyTime",
+      "comment": "职级",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:50;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "F_CreateTime",
+      "comment": "创建时间",
+      "struct_field_required": false,
+      "struct_field_type": "datetime",
+      "gorm_options": "size:10;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "F_Description",
+      "comment": "备注",
+      "struct_field_required": false,
+      "struct_field_type": "string",
+      "gorm_options": "size:200;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "F_SortCode",
+      "comment": "序号",
+      "struct_field_required": false,
+      "struct_field_type": "int",
+      "gorm_options": "size:10;",
+      "binding_options": ""
+    },
+    {
+      "struct_field_name": "F_DeleteMark",
+      "comment": "状态(1:启用 2:停用)",
+      "struct_field_required": true,
+      "struct_field_type": "int",
+      "gorm_options": "",
+      "binding_options": "max=2,min=1"
+    }
+  ]
+}

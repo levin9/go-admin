@@ -68,6 +68,7 @@ func AutoMigrate(db *gorm.DB) error {
 		new(entity.Menu),
 		new(entity.MenuAction),
 		new(entity.MenuResource),
+		new(entity.Personal),
 	).Error
 }
 
@@ -88,5 +89,6 @@ func Inject(container *dig.Container) error {
 	_ = container.Provide(func(m *imodel.Role) model.IRole { return m })
 	_ = container.Provide(imodel.NewUser)
 	_ = container.Provide(func(m *imodel.User) model.IUser { return m })
+	container.Provide(imodel.NewPersonal, dig.As(new(model.IPersonal)))
 	return nil
 }

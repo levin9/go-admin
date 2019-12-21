@@ -24,6 +24,7 @@ func RegisterRouter(app *gin.Engine, container *dig.Container) error {
 		cMenu *ctl.Menu,
 		cRole *ctl.Role,
 		cUser *ctl.User,
+cPersonal *ctl.Personal,
 	) error {
 
 		g := app.Group("/api")
@@ -69,7 +70,13 @@ func RegisterRouter(app *gin.Engine, container *dig.Container) error {
 
 			// 注册/api/v1/demos
 			gDemo := v1.Group("demos")
-			{
+
+// 注册/api/v1/personals
+v1.GET("/personals", cPersonal.Query)
+v1.GET("/personals/:id", cPersonal.Get)
+v1.POST("/personals", cPersonal.Create)
+v1.PUT("/personals/:id", cPersonal.Update)
+v1.DELETE("/personals/:id", cPersonal.Delete)			{
 				gDemo.GET("", cDemo.Query)
 				gDemo.GET(":id", cDemo.Get)
 				gDemo.POST("", cDemo.Create)

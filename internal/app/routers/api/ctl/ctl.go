@@ -16,5 +16,6 @@ func Inject(container *dig.Container) error {
 	_ = container.Provide(NewMenu)
 	_ = container.Provide(NewRole)
 	_ = container.Provide(NewUser)
+	container.Provide(NewPersonal)
 	return nil
 }
